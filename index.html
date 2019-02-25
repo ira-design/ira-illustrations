@@ -30,7 +30,7 @@
 
 	<meta name="twitter:description" content="Build your own amazing illustrations.">
 	<meta name="twitter:creator" content="@creativetim">
-	<meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/46/original/opt_mkp_thumbnail.jpg">
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/ira-design/iradesign.jpg">
 	<meta name="twitter:data1" content="Ira Design by Creative Tim">
 	<meta name="twitter:label1" content="Product Type">
 	<meta name="twitter:label2" content="Price">
@@ -39,7 +39,7 @@
 	<meta property="fb:app_id" content="655968634437471">
 	<meta property="og:title" content="Ira Design by Creative Tim">
 	<meta property="og:type" content="article">
-	<meta property="og:url" content=" http://demos.creative-tim.com/material-kit/index.html">
+	<meta property="og:url" content="https://www.creative-tim.com/ira-design">
 	<meta property="og:image" content="">
 	<meta property="og:description" content="Build your own amazing illustrations.">
 	<meta property="og:site_name" content="Ira Design">
@@ -165,9 +165,9 @@
 													product.
 													<a class="github-button" href="https://github.com/creativetimofficial/ira-design" data-icon="octicon-star" data-show-count="true" aria-label="Star creativetimofficial/ira-design on GitHub">Star</a>
                         </h6>
-												<a href="facebook.com" class="btn btn-simple btn-twitter btn-icon"><i class="fab fa-twitter"></i></a>
-								<a href="facebook.com" class="btn btn-simple btn-facebook btn-icon"><i class="fab fa-facebook"></i></a>
-								<a href="facebook.com" class="btn btn-simple btn-github btn-icon"><i class="fab fa-github"></i></a>
+												<a href="https://twitter.com/CreativeTim" class="btn btn-simple btn-twitter btn-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="https://www.facebook.com/CreativeTim" class="btn btn-simple btn-facebook btn-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+								<a href="https://github.com/creativetimofficial/ira-design" class="btn btn-simple btn-github btn-icon" target="_blank"><i class="fab fa-github"></i></a>
 
 
 		        </div>
@@ -212,7 +212,7 @@
      </div>
 		 <div class="section section-how">
 			 <div class="container">
-				 <div class="space-180"></div>
+				 <div class="space-50"></div>
 				 <div class="col-md-8 col-md-offset-2 text-center">
 							<h2 class="title">How to create?</h2>
 							<div class="space-50"></div>
@@ -5616,10 +5616,10 @@
 			</div>
 			<div class="row">
 				 <div class="col-md-12">
-					 <a href="#pablo" id="twitter" class="btn btn-twitter btn-round">
+					 <a href="https://twitter.com/home?status=Ira%20Design%20build%20your%20own%20amazing%20illustrations%20https%3A//www.creative-tim.com/ira-design%20" class="btn btn-twitter btn-round">
 						 <i class="fab fa-twitter"></i> Twitter
 					 </a>
-					 <a href="#pablo" id="facebook" class="btn btn-facebook btn-round">
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.creative-tim.com/ira-design" class="btn btn-facebook btn-round">
 						 <i class="fab fa-facebook"></i> Facebook
 					 </a>
 				 </div>
@@ -5667,7 +5667,6 @@
 </footer>
 <div id="crowbar-workspace">
     </div>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 
@@ -5680,8 +5679,7 @@
 	<script src="assets/js/jquery-ui.custom.min.js" type="text/javascript"></script>
 
 	<script src="bootstrap3/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="bootstrap3/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/jquery.sharrre.min.js" type="text/javascript"></script>
+
 
     <!--  Get Shit Done Kit PRO Core javascript 	 -->
 	<script src="assets/js/gsdk.js"></script>
@@ -5708,37 +5706,7 @@
 
 					$('.dropdown-toggle').dropdown();
 
-					$('#twitter').sharrre({
-					 share: {
-						 twitter: true
-					 },
-					 enableHover: false,
-					 enableTracking: false,
-					 buttons: { twitter: {}},
-					 click: function(api, options){
-						 api.simulateClick();
-						 api.openPopup('twitter');
-					 },
-					 template:'<i class="fab fa-twitter"></i>twitter',
-					 url: ' https://github.com/creativetimofficial/ct-material-kit-pro-react-native'
-				 });
 
-				 $('#facebook').sharrre({
-					 share: {
-						 facebook: true
-					 },
-					 buttons: {
-						 facebook: {}
-					 },
-					 enableHover: false,
-					 enableTracking: false,
-					 click: function(api, options){
-						 api.simulateClick();
-						 api.openPopup('facebook');
-					 },
-					 template: '<i class="fab fa-facebook-f"></i>facebook',
-					 url: '  https://github.com/creativetimofficial/ct-material-kit-pro-react-native'
-				 });
 
 	    });
 	</script>
@@ -5760,7 +5728,7 @@
 		  var newe = $(who).get(0).cloneNode(true);
 		  // this is the main thing that does the work
 		  var test = svg_crowbar(d3.select(who).node(), {
-		    filename: "export-me.png",
+		    filename: $(who).attr('id'),
 		    width: $(who).width(),
 		    height: $(who).height(),
 		    crowbar_el: d3.select("#crowbar-workspace").node(),
