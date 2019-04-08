@@ -13,13 +13,13 @@ IRA Design helps you scale your final illustrations and bring them to life. Down
 
 ## Links:
 
-+ [Live Preview](https://www.creative-tim.com/ira-design)
++ [Live Preview](http://iradesign.io/)
 
 ## Download:
 
-+ [Download PNG](https://github.com/creativetimofficial/ira-design/blob/PNG/PNG.zip?raw=true)
-+ [Download SVG](https://github.com/creativetimofficial/ira-design/blob/SVG/SVG.zip?raw=true)
-+ [Download PNG+SVG](https://github.com/creativetimofficial/ira-design/blob/ALL/PNG%2BSVG.zip/?raw=true)
++ [Download PNG](https://github.com/ira-design/ira-illustrations/blob/PNG/PNG.zip?raw=true)
++ [Download SVG](https://github.com/ira-design/ira-illustrations/blob/SVG/SVG.zip?raw=true)
++ [Download PNG+SVG](https://github.com/ira-design/ira-illustrations/blob/ALL/PNG%2BSVG.zip/?raw=true)
 
 
 ## Useful Links
