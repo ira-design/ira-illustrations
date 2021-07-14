@@ -1,14 +1,14 @@
 # [Ira Design - Build your own amazing illustrations](https://www.creative-tim.com/ira-design)
 
-![alt text](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/ira-design/iradesign.jpg)
+![alt text](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/ira-design/ira-design.gif)
 
 With IRA Design, you can create amazing illustrations by using hand-drawn sketch components. We proudly offer a cool selection of 5 gradients and the ability to use ai., svg. or png. formats.
 IRA Design helps you scale your final illustrations and bring them to life. Download it for free under MIT license and use it on commercial or personal projects. Choose your colors, objects, formats and scale your images without any quality change.
 
 ## Components:
 
-+ 11 characters
-+ 16 objects
++ 36 characters (19 Gradient + 17 Outline)
++ 52 objects (26 Gradient + 26 Outline)
 + 15 backgrounds
 
 ## Links:
