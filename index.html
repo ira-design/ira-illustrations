@@ -5667,7 +5667,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </nav>
       <div>
 				<div class="copyright">
-						© 2019 <a href="https://www.creative-tim.com?ref=iradesign-footer">Creative Tim</a>, made with love for a better web.
+						© 
+						<span id="copyright">
+							<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+						</span>
+						<a href="https://www.creative-tim.com?ref=iradesign-footer">Creative Tim</a>, made with love for a better web.
 				</div>
       </div>
 
