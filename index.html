@@ -5675,7 +5675,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 <div id="crowbar-workspace">
 </div>
-
+<a href="#" class="to-top"><i class="fas fa-chevron-up" style="color: #ffffff;"></i></a>
 </body>
 
   <!--  jQuery and Bootstrap core files    -->
@@ -5868,6 +5868,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				}
 		});
 
+		</script>
+
+		<script type="text/javascript">
+			const toTop = document.querySelector(".to-top")
+
+			window.addEventListener("scroll", () => {
+				if(window.pageYOffset > 100) {
+					toTop.classList.add("active");
+				} else {
+					toTop.classList.remove("active");
+				}
+			})
 		</script>
 
 </html>
